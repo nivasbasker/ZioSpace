@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@color/transparent">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/d_circle"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher_round"
+        android:translationZ="5dp" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="?android:attr/colorBackground"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:text="Choose A Theme"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     Day/Light " />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     Night/Dark " />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     System Default" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/rcancel"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/transparent"
+                android:padding="0dp"
+                android:text="cancel"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/rokay"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:background="@color/transparent"
+                android:padding="0dp"
+                android:text="Apply"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

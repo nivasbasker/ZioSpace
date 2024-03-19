@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_1"
+        android:icon="@drawable/icon_nav_home"
+        android:title="Explore" />
+    <item
+        android:id="@+id/menu_2"
+        android:icon="@drawable/icon_nav_mycrs"
+        android:title="My Courses" />
+    <item
+        android:id="@+id/menu_3"
+        android:icon="@drawable/icon_nav_events"
+        android:title="Events"
+        android:visible="false" />
+    <item
+        android:id="@+id/menu_4"
+        android:icon="@drawable/icon_nav_prof"
+        android:title="Profile" />
+
+
+</menu>

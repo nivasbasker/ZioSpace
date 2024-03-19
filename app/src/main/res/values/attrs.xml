@@ -1,0 +1,12 @@
+<resources>
+    <attr name="lighter_background" format="color|reference" />
+    <attr name="textRegular" format="reference|color" />
+
+    <declare-styleable name="AppBar">
+        <attr name="Title" format="string" />
+        <attr name="Subtitle" format="string" />
+        <attr name="RightIcon" format="reference" />
+        <attr name="backEnable" format="boolean" />
+    </declare-styleable>
+
+</resources>

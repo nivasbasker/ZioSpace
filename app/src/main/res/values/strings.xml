@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Zio Space</string>
+    <string name="tagline">Zio Soft</string>
+    <string name="appversion">v 1.25.2.24</string> //num.day.mon.yr
+
+
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="newuser"><u>New user ? SignUp</u></string>
+    <string name="forgot">forgot?</string>
+
+    //course details page texts
+    <string name="feauture1">● &#xA0;&#xA0;Lifetime Access</string>
+    <string name="feauture2">● &#xA0;&#xA0;24/7 support throughout the course</string>
+    <string name="feauture3">● &#xA0;&#xA0;Interesting Tasks and Quizzes</string>
+    <string name="feauture4">● &#xA0;&#xA0;Regular Reference Materials</string>
+    <string name="feauture5">● &#xA0;&#xA0;Certificate of completion</string>
+
+    //settings activity texts
+    <string name="switch1">Notifications on registered course</string>
+    <string name="switch2">promotional notifications</string>
+    <string name="switch3">Download over wifi only</string>
+
+    //for calendar
+    <string name="jan">January</string>
+    <string name="feb">February</string>
+    <string name="mar">March</string>
+    <string name="apr">April</string>
+    <string name="may">May</string>
+    <string name="jun">June</string>
+    <string name="jul">July</string>
+    <string name="aug">August</string>
+    <string name="sep">September</string>
+    <string name="oct">October</string>
+    <string name="nov">November</string>
+    <string name="dec">December</string>
+    <string name="unknown">unknown</string>
+
+    //become mentor
+    <string name="for_you">1. Develop your teaching skills\n2. Earn as you teach\n3. Be a part of Zio community</string>
+    <string name="mail_us">If you are interested click the button below to mail us your resume and we will contact you back for further process.</string>
+    <string name="ur_need">Passion about learning and teaching\nExpertise in any particular field\nThats all it takes</string>
+    <string name="cwz_desc">Zio provides you the platform for that very purpose. We will provide you with: \n<b>1 </b>A zio app with full mentor access, \n<b>2 </b>Where you can create and advertise as many as courses needed, \n<b>3 </b>Enroll any registered zio users, \n<b>4 </b>Schedule your courses, \n<b>5 </b>Publish course resources, \n<b>6 </b>Assign tasks and quizzes, and more such features all in one place</string>
+
+
+</resources>

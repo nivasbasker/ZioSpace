@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "917123467488",
+    "firebase_url": "https://zio-app-7415f.firebaseio.com",
+    "project_id": "zio-app-7415f",
+    "storage_bucket": "zio-app-7415f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917123467488:android:56ba9e0928b8c54d06e885",
+        "android_client_info": {
+          "package_name": "com.codewithzio.mentor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917123467488-4jeb461n1jjcuc80ia1vmr8992a926l5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codewithzio.mentor",
+            "certificate_hash": "a0fc25d81a680d67361c9cbe9d649e2ee67e30c4"
+          }
+        },
+        {
+          "client_id": "917123467488-fs23dpkh7thku5h04auf94jo9m3tb1vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa-xdoUxH0vB6pIE1rvARBQKK5dcJV5K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917123467488-fs23dpkh7thku5h04auf94jo9m3tb1vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917123467488:android:9bd3b4beb357e38e06e885",
+        "android_client_info": {
+          "package_name": "com.codewithzio.zio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917123467488-mr9b68o58cr4vhldh0jr6lnfihobt5el.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codewithzio.zio",
+            "certificate_hash": "f2c6f7da75dd548dbf4eb7b554a390b305618829"
+          }
+        },
+        {
+          "client_id": "917123467488-urg7r2be7nskmud108tdaun9nn4ma6fp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codewithzio.zio",
+            "certificate_hash": "f79930fd58101750543e94f002d2ec56dd2cfbbf"
+          }
+        },
+        {
+          "client_id": "917123467488-fs23dpkh7thku5h04auf94jo9m3tb1vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa-xdoUxH0vB6pIE1rvARBQKK5dcJV5K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917123467488-fs23dpkh7thku5h04auf94jo9m3tb1vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917123467488:android:a013b9bab4ec272406e885",
+        "android_client_info": {
+          "package_name": "com.zio.ziospace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917123467488-fs23dpkh7thku5h04auf94jo9m3tb1vc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa-xdoUxH0vB6pIE1rvARBQKK5dcJV5K0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917123467488-fs23dpkh7thku5h04auf94jo9m3tb1vc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

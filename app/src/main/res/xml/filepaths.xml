@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+
+    <files-path
+        name="ziomedia"
+        path="ziomedia/" />
+    //apps storage path
+
+    <files-path
+        name="downloads"
+        path="/downloads/" />
+    //apps storage path
+
+
+</paths>

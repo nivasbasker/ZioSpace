@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ui.course.CourseActivity">
+
+    <com.zio.ziospace.components.AppBar
+        android:id="@+id/cvappbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:Title="CourseView"
+        app:backEnable="true" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabIndicatorAnimationMode="linear"
+        app:tabMaxWidth="200dp"
+        app:tabMode="auto" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

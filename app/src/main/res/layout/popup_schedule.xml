@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:background="@drawable/d_card"
+        android:backgroundTint="@color/SecondaryAccent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/schedule_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:text="Day - 1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/schedule_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/schedule_index"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="topics"
+            android:textSize="18sp"
+            android:textStyle="italic" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/schedule_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:enabled="false"
+            android:text="Join" />
+
+    </RelativeLayout>
+</LinearLayout>
