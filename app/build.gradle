@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+
     namespace 'com.zio.ziospace'
     compileSdk 34
 
@@ -18,12 +19,7 @@ android {
     }
 
     signingConfigs {
-        release {
-            storeFile file('C:\\Users\\nivas\\Zio\\appkeys\\zioappkey.jks')
-            storePassword 'techie@234'
-            keyAlias 'ziokey0'
-            keyPassword 'techie234!'
-        }
+
     }
 
     buildTypes {
