@@ -64,7 +64,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <com.zio.ziospace.components.CustomCalendarView
+    <com.zio.ziospace.customviews.calenderview.CustomCalendarView
         android:id="@+id/calendar"
         android:layout_width="350dp"
         android:layout_height="wrap_content"

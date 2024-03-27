@@ -13,7 +13,7 @@
         android:layout_centerInParent="true"
         android:text="No courses Enrolled" />
 
-    <com.zio.ziospace.components.AppBar
+    <com.zio.ziospace.customviews.AppBar
         android:id="@+id/Myctopbar"
         android:layout_width="match_parent"
         android:layout_height="70dp"

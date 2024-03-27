@@ -14,20 +14,20 @@
         android:theme="@style/Theme.ZioSpace"
         tools:targetApi="31">
         <activity
-            android:name=".ui.activities.LessonsActivity"
+            android:name=".ui.zbits.LessonsActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.BitsActivity"
+            android:name=".ui.zbits.BitsActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".helpers.TestingActivity"
+            android:name=".TestingActivity"
             android:exported="true">
 
         </activity>
         <activity
-            android:name=".ui.course.CourseTask"
+            android:name=".ui.mycourse.TaskActivity"
             android:exported="false" />
         <activity
             android:name=".ui.settings.SettingsActivity"
@@ -38,19 +38,19 @@
 
         </activity>
         <activity
-            android:name=".ui.activities.SignupActivity"
+            android:name=".ui.onboarding.SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.LoginActivity"
+            android:name=".ui.onboarding.LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.activities.OTPScreen"
+            android:name=".ui.onboarding.OTPScreen"
             android:exported="false" />
         <activity
-            android:name=".ui.dashboard.CourseDet"
+            android:name=".ui.dashboard.CourseDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.activities.SplashScreenActivity"
+            android:name=".ui.onboarding.SplashScreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:label="@string/app_name">
@@ -60,14 +60,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ZirstmainActivity"
+            android:name=".DaragNDropActivity"
             android:exported="true"></activity>
 
         <activity
-            android:name=".ui.course.CourseActivity"
+            android:name=".ui.mycourse.CourseActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.settings.BcmMentor"
+            android:name=".ui.settings.BecomeMentorActivity"
             android:exported="false" />
 
         <provider

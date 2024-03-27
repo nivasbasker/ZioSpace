@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="ui.course.CourseActivity">
+    tools:context="ui.mycourse.CourseActivity">
 
-    <com.zio.ziospace.components.AppBar
+    <com.zio.ziospace.customviews.AppBar
         android:id="@+id/cvappbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

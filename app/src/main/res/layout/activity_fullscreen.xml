@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/PrimaryColor"
     android:id="@+id/fullscreenContent"
-    tools:context=".ui.activities.SplashScreenActivity">
+    tools:context=".ui.onboarding.SplashScreenActivity">
 
     <TextView
         android:id="@+id/tag1"

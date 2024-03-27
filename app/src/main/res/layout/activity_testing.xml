@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".helpers.TestingActivity">
+    tools:context=".TestingActivity">
 
-    <com.zio.ziospace.components.CustomCalendarView
+    <com.zio.ziospace.customviews.calenderview.CustomCalendarView
         android:id="@+id/calendar"
         android:layout_width="350dp"
         android:layout_height="wrap_content"

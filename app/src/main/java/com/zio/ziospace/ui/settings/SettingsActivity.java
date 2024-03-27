@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.zio.ziospace.R;
-import com.zio.ziospace.helpers.LoginManager;
+import com.zio.ziospace.common.LoginManager;
 
 public class SettingsActivity extends AppCompatActivity {
 
@@ -60,7 +60,7 @@ public class SettingsActivity extends AppCompatActivity {
                 startActivity(new Intent(this, ChangePass.class));
                 break;
             case R.id.mentor:
-                startActivity(new Intent(SettingsActivity.this, BcmMentor.class));
+                startActivity(new Intent(SettingsActivity.this, BecomeMentorActivity.class));
                 break;
             case R.id.help:
                 startActivity(new Intent(SettingsActivity.this, HelpMenu.class));

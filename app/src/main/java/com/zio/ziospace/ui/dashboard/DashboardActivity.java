@@ -20,8 +20,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.zio.ziospace.R;
-import com.zio.ziospace.helpers.LoginManager;
-import com.zio.ziospace.ui.activities.BitsActivity;
+import com.zio.ziospace.common.LoginManager;
+import com.zio.ziospace.ui.zbits.BitsActivity;
 import com.zio.ziospace.helpers.Constants;
 
 public class DashboardActivity extends AppCompatActivity {
@@ -38,9 +38,9 @@ public class DashboardActivity extends AppCompatActivity {
         navigationbar = findViewById(R.id.btm_menu);
         navigationbar.setSelectedItemId(R.id.menu_1);
 
-        Fragment exploreFragment = new ExploreFragment();
-        Fragment myCoursesFragment = new MyCoursesFragment();
-        Fragment profileFragment = new ProfileFragment();
+        Fragment exploreFragment = new FragExplore();
+        Fragment myCoursesFragment = new FragMyCourses();
+        Fragment profileFragment = new FragProfile();
 
         getSupportFragmentManager().beginTransaction().replace(R.id.fragments_container, exploreFragment).commit();
         navigationbar.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {

@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activities.BitsActivity">
+    tools:context=".ui.zbits.BitsActivity">
 
-    <com.zio.ziospace.components.AppBar
+    <com.zio.ziospace.customviews.AppBar
         android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
